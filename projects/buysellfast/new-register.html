@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Buy Sell Fast</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Styles -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- JavaScripts -->
+  <script src='js/jquery-1.10.2.min.js'></script>
+  <script src='js/bootstrap.min.js'></script>
+
+  <script>
+$(document).ready(function() {
+  // Making visible links with download ios or android app only on appropriate devices
+  function visibleMobileBanners (){
+      $(".only-android-visible").hide();
+      $(".only-iosmobile-visible").hide();
+
+      if( /Android/i.test(navigator.userAgent) ) {
+         $(".only-android-visible").show();
+         $(".only-another-devices-visible").hide();
+         $(".general-statistic").css("position", "relative");
+         $(".general-statistic").css("margin-bottom", "70px");
+      }
+      if( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+         $(".only-iosmobile-visible").show();
+         $(".only-another-devices-visible").hide();
+         $(".general-statistic").css("position", "relative");
+         $(".general-statistic").css("margin-bottom", "70px");         
+      }
+    }
+  visibleMobileBanners ();  
+});
+</script>
+
+</head>
+<body>
+
+  <header>
+    <!-- Logo -->
+    <div class="top-bar-logo">
+      <a href="/">
+        <img src="images/BuySellFast.png" height="31" width="187" alt="Logo"></a>
+    </div>
+
+  </header>
+
+  <div id="page-content">
+
+    <!-- Container -->
+
+    <div class="register">
+
+      <!-- NEW CODE 1 begin -->
+      <script type="text/javascript">
+  $(document).ready(function() {
+    $(window).on("resize", function () {
+    // Emulation of full width block
+      emulationHeight = $(".full-width-emulator-inside").outerHeight() + 20;
+      emulationTop = ($(".full-width-emulator").offset().top);
+      emulationLeft = -($(".full-width-emulator").offset().left);
+      $(".full-width-emulator-inside").css("position", "absolute");
+      $(".full-width-emulator-inside").css("top", emulationTop);
+      $(".full-width-emulator-inside").css("left", emulationLeft);
+      $(".full-width-emulator").css("height", emulationHeight);
+      // Changing css to apply only on this register screen
+      $("#page-content").css("margin-top", "69px");
+      $("header").css("height", "69px");
+
+    }).resize();
+  });
+</script>
+
+      <div class="full-width-emulator">
+        <div class="full-width-emulator-inside">
+          <div class="bg-lilac2">
+            BuySellFast is a social e-commerce platform for buyers and sellers located anywhere in the world. Membership is free! Create your own online store, list new or used items for sale, browse the shops of other members, and buy items from around the world.
+            <a class="link-more" target="_blank" href="#">
+              <span class="icon-learn-more"></span>
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- NEW CODE 1 end -->
+
+      <div class="col-md-6 col-md-offset-3">
+        <div class="row text-center">
+          <img src="images/lock.png" alt="Image">
+          <!-- changed code begin -->
+          <div class="blue-upper">Sign In</div>
+          <!-- changed code end --> </div>
+
+        <div class="blue-block">
+          <a class="sign-in-bsf" href="#">
+            <div class="lock-sm">
+              <img src="images/lock-sm.png" alt="Image"></div>
+            <span>
+              Sign In with
+              <img src="images/bsf-white.png" alt="Buy Sell Fast"></span>
+          </a>
+          <a class="sign-in-fb" href="#">
+            <div class="lock-sm">
+              <img src="images/fb-sm.png" alt="Image"></div>
+            <span>
+              Sign In with
+              <img src="images/fb-white.png" alt="facebook"></span>
+          </a>
+          <!-- NEW CODE 2 begin -->
+          <div class="register-notif">By creating an account using your Facebook account, you agree to our <a href="#">Terms and Conditions</a> policy.</div>
+        <!-- NEW CODE 2 end -->
+        
+        </div>
+
+        <!-- NEW CODE 3 begin -->
+        <div class="text-center raspberry">OR</div>
+        <div class="text-center raspberry">Register now to buy and sell fast</div>
+        <!-- NEW CODE 3 end -->
+
+        <a class="btn btn-primary btn-register" href="#">
+          <span class="icon-register-btn"></span> <b>Register</b>
+        </a>
+
+        <div class="only-another-devices-visible">
+          <div class="text-center">OR</div>
+          <!-- changed code begin -->
+          <div class="text-center">Download the BuySellFast Mobile App</div>
+          <!-- changed code end -->
+
+          <div class="text-center">
+            <a class="link-app"  href="#">
+              <img src="images/appstore.png" height="49" width="145"></a>
+            <a class="link-app" href="#">
+              <img src="images/android.png" height="49" width="145"></a>
+          </div>
+        </div>
+
+        <!-- NEW CODE 4 begin -->
+
+        <div class="text-center orange">Follow us on social media</div>
+        <div class="social-links">
+          <a href="#" target="_blank" class="social-links-facebook"></a>
+          <a href="#" target="_blank" class="social-links-twitter"></a>
+          <a href="#" target="_blank" class="social-links-google"></a>
+          <a href="#" target="_blank" class="social-links-linkedin"></a>
+          <a href="#" target="_blank" class="social-links-pinterest"></a>
+        </div>
+        <!-- NEW CODE 4 end --> </div>
+    </div>
+
+    <div class="only-android-visible banner-mobile">
+      <div class="banner-mobile-wrap">
+        <div class="close-banner"></div>
+        <div class="text1">
+          <a href="#">Download the BuySellFast App</a>
+        </div>
+        <div class="text2">
+          <a href="#">
+            <img src="images/android.png" height="49" width="145"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="only-iosmobile-visible banner-mobile">
+      <div class="banner-mobile-wrap">
+        <div class="close-banner"></div>
+        <div class="text1">
+          <a href="#">Download the BuySellFast App</a>
+        </div>
+        <div class="text2">
+          <a href="#">
+            <img src="images/appstore.png" height="49" width="145"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom panel with seller and buyer statistic -->
+    <div class="general-statistic">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="general-statistic-buyer">
+          <div class="icon-buyer2"></div>
+          <div class="general-statistic-buyer-title">Buyers</div>
+          <div class="general-statistic-buyer-amount">2462453</div>
+        </div>
+        <div class="general-statistic-seller">
+          <div class="icon-seller2"></div>
+          <div class="general-statistic-seller-title">Sellers</div>
+          <div class="general-statistic-seller-amount">2462453</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEW CODE BEGIN -->
+    <script>
+
+// Fixing bottom position of .general-statistic depends on screen size
+$(document).ready(function() {
+
+$(window).on("resize", function () {
+
+      var h1 = $(window).height();
+      var h2 = $(".register").height();
+      console.log(h1, h2)
+      if (h1 - h2 > 140) {
+        $(".general-statistic").css("bottom", "0");
+      }
+      else {
+          $(".general-statistic").css("bottom", "-140");
+      }
+
+
+      var w1 = $(window).width();
+      w2  = $("#page-content").width();      
+      if (h2 > h1) {
+         $(".general-statistic").css("width", w1);
+         $(".general-statistic").css("left", 0);
+      }
+      else {
+         $(".general-statistic").css("width", w1);
+         $(".general-statistic").css("position", "relative");
+         $(".general-statistic").css("left", "auto");
+         $(".general-statistic").css("bottom", "auto");
+         $(".general-statistic").css("margin-left", -(w1-w2)/2);
+      }
+
+}).resize();
+
+});
+
+</script>
+
+    <!-- NEW CODE end -->
+
+    <!-- ./page-content --> </div>
+</body>
+</html>
