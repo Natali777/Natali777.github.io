@@ -172,22 +172,25 @@
     </div>
     <!-- Main wrapper end -->
 
+
+<script type="text/javascript">
+function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "js/arrangemasonry.js";
+    document.body.appendChild(element);
+}
+if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
+
+
     <!-- JavaScript -->
     <script src="js/jquery-3.0.0.min.js"></script>
     <!-- <script src="js/bootstrap.js"></script> -->
-    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
     <script src="js/masonry.pkgd.min.js"></script>
-
-    <script>
-$(window).load(function() {
-            $('.grid').masonry({
-                itemSelector: '.grid-item',
-                // use element for option
-                columnWidth: '.grid-sizer',
-                percentPosition: true            
-            });
-    });
-    </script>
 
 
 </html>
