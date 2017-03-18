@@ -1297,7 +1297,7 @@ h5{color:#8250a0;text-transform:uppercase;padding:0 5%;font-size:20px;font-famil
 }
 .buyer-profile{width:96%;margin:0 auto;border-bottom:1px solid #e8dfed;}
 .icon-info{background:url(../images/Info.png) center right no-repeat;}
-.grey-bg{background:#f7f7f7;padding-bottom:20px;overflow:hidden;clear:both;}
+.grey-bg{background:#f7f7f7;padding-bottom:20px;display: table;width: 100%;clear:both;}
 .darkgrey-text{color:#5e5e5e;display:block;font-family:"PlutoSansCondRegular";font-size:18px;}
 .wrapper30{padding:30px 0 0;}
 .wrapper50{padding:50px 0 0;}
@@ -1778,8 +1778,8 @@ ul.list-ckeck{margin:30px 0;padding:0;}
 @media (min-width:1273px){
 	#page-content{width:1273px;margin:0 auto;}
 }
-header{position:fixed;top:0;width:100%;background:#fff;z-index:1000000;}
-.navbar{position:fixed;top:83px;width:100%;z-index:1000000;}
+header{position:fixed;top:0;width:100%;background:#fff;z-index:1;}
+.navbar{position:fixed;top:83px;width:100%;z-index:1;}
 #page-content{margin-top:145px;}
 @media (max-width:768px){
 	#page-content{margin-top:136px;}

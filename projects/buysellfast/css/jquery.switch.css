@@ -23,7 +23,7 @@
 .ui-switch-middle {
 	height: 35px;
 	width: 50px;
-	border: solid 7px #8250a0;
+	border: solid 8px #8250a0;
 	position: relative;
 	margin-top: -34px;
 	z-index: 100;
@@ -138,7 +138,7 @@
 }
 .ui-switch.off .ui-switch-middle {
 
-	border: solid 7px #e4d2ee;
+	border: solid 8px #e4d2ee;
 
 }
 .ui-switch.off .ui-switch-.disabled .ui-switch-handle:after {
