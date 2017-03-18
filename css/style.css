@@ -116,7 +116,7 @@ display: block;
 .grid-item img {
   display: block; 
   max-width: 100%;
-  border: 1px solid rgba(1, 192, 225, 1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .grid-item-head {
   min-height: 50px; 
