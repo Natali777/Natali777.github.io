@@ -1,4 +1,4 @@
-
+$('.loading').hide();
 $('.grid-item img').show();
 
             $('.grid').masonry({

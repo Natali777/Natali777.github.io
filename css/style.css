@@ -4,6 +4,7 @@ body {
 
 }
 .wrapper {
+  position: relative;
 }
 
 .project {
@@ -149,4 +150,10 @@ background: #fff;
   background: rgba(1, 192, 225, 1);
 padding: 40px 0;
 color: #fff;  
+}
+.loading {
+  position: fixed; 
+  display: block; 
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
 }
