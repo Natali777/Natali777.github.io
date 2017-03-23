@@ -7,23 +7,6 @@ body {
 	padding-top: 140px !important;
 }
 
-/* Footer sticked to bottom */
-html,
-body {
-	height: 100%;
-}
-
-.wrapper {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -400px; /* the bottom margin is the negative value of the footer's height */
-}
-
-.footer,
-.push {
-	height: 260px; /* .push must be the same height as .footer minus body padding top 140px */
-}
 
 @media (max-width:768px) {
 	.wrapper {
